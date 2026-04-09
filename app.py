@@ -143,10 +143,15 @@ st.markdown("""
         margin-bottom: 8px !important;
         cursor: pointer !important;
         transition: all 0.2s !important;
-        color: #d1d5db !important;
+        color: #ffffff !important;
         font-size: 15px !important;
         display: block !important;
         width: 100% !important;
+        opacity: 1 !important;
+    }
+    div[data-testid="stRadio"] label p {
+        color: #ffffff !important;
+        opacity: 1 !important;
     }
 
     div[data-testid="stRadio"] label:hover {
