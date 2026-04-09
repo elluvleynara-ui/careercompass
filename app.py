@@ -490,7 +490,6 @@ if st.session_state.stage == "home":
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown('<div class="section-card">', unsafe_allow_html=True)
     st.markdown('<div class="section-label">Step 1 — Choose your area</div>', unsafe_allow_html=True)
     st.markdown('<div class="question-text">Which IT area are you exploring?</div>', unsafe_allow_html=True)
 
@@ -499,8 +498,6 @@ if st.session_state.stage == "home":
         "💻  Development",
         "🏢  Management"
     ], label_visibility="collapsed")
-
-    st.markdown('</div>', unsafe_allow_html=True)
 
     if st.button("Start the quiz →"):
         st.session_state.area = area
