@@ -135,6 +135,7 @@ st.markdown("""
         color: #4b5563;
     }
 
+    div[data-testid="stRadio"] > div > label:first-child { display: none !important; }
     div[data-testid="stRadio"] label {
         background: rgba(255,255,255,0.03) !important;
         border: 1px solid rgba(255,255,255,0.08) !important;
